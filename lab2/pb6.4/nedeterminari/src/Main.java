@@ -40,12 +40,12 @@ public class Main {
         }
 
         boolean bool;
-        //bool = 2; "incompatible types: int cannot be converted to boolean"
+        
         bool = true;
         System.out.println("Booleans can only be true or false!");
 
         int k;
-        //k = 1.5f; incompatible types: possible lossy conversion from float to int
+        
         k = 1;
         System.out.println("You can't assign float/double to int in Java!");
     }
